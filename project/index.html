@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Algorithms - Comparison</title>
+    <script src="sort_script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="Main-wrapper">
+
+        <div class="wrapper1">
+            <!-- Part one design structure -->
+            <div class="drop_down_bar_1">
+                <label for="sorts1" id="thefirst">Select 1st sort:</label><br>
+                <select name="sorting1" id="SortingupFirstSelectedSort">
+                    <option value="drops">Select....</option>
+                    <option value="Selection">Selection Sort</option>
+                    <option value="QuickReg">Quick Sort Regular</option>
+                    <option value="Quickmed">Quick Sort Medians</option>
+                    <option value="Bubble">Bubble Sort</option>
+                    <option value="Heap">Heap Sort</option>
+                    <option value="Insertion">Insertion Sort</option>
+                    <option value="Merge">Merge Sort</option>
+                </select>
+            </div>
+            <div class="array_size1">
+                <label for="ele1">Enter the number of elements to be sorted:</label><br>
+                <input type="text" id="AraySize1" pattern="[1-9]{9}">
+            </div>
+
+            <button id="run_it_1" onclick="sort_calls_1()">RUN</button>
+            <div class="InputOfArray1">
+                <p id="InputAray1"></p>
+            </div>
+            <div class="OutputOfArray1">
+                <p id="OutputAray1"></p>
+            </div>
+            <div class="exec_time1">
+                <p id="TimeTakenForExecution1"></p>
+            </div>
+
+        </div>
+        <div class="wrapper2">
+            <!-- Part two design structure -->
+            <div class="drop_down_bar_2">
+                <label for="sorts2" id="theSecond">Select 2nd sort: </label><br>
+                <select name="sorting2" id="sort_up2">
+                    <option value="drops">Select....</option>
+                    <option value="Selection">Selection Sort</option>
+                    <option value="QuickReg">Quick Sort Regular</option>
+                    <option value="Quickmed">Quick Sort Medians</option>
+                    <option value="Bubble">Bubble Sort</option>
+                    <option value="Heap">Heap Sort</option>
+                    <option value="Insertion">Insertion Sort</option>
+                    <option value="Merge">Merge Sort</option>
+                </select>
+            </div>
+            <div class="array_size2">
+                <label for="ele2">Enter the number of elements to be sorted:</label><br>
+                <input type="text" id="AraySize2" pattern="[1-9]{9}">
+            </div>
+            <button id="run_it_2" onclick="sort_calls_2()">RUN</button>
+            <div class="InputOfArray2">
+                <p id="InputAray2"></p>
+            </div>
+            <div class="OutputOfArray2">
+                <p id="OutputAray2"></p>
+            </div>
+            <div class="exec_time2">
+                <p id="TimeTakenForExecution2"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

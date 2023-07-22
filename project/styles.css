@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#Main-wrapper {
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid rgb(239, 232, 232);
+    background-color: #fdfcfb;
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 200px;
+}
+
+#sort_up1,
+#sort_up2 {
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#AraySize1,
+#AraySize2 {
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#run_it_1,
+#run_it_2 {
+    width: 200px;
+    height: 30px;
+    background-color: #f5cac3;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.drop_down_bar_1,
+.drop_down_bar_2 {
+    margin-bottom: 10px;
+}
+
+.InputOfArray1,
+.InputOfArray2,
+.OutputOfArray1,
+.OutputOfArray2 {
+    width: 400px;
+    height: 100px;
+    Overflow: scroll;
+    word-wrap: break-word;
+}
+
+.wrapper1 {
+    position: fixed;
+    left: 200px;
+}
+
+.wrapper2 {
+    position: fixed;
+    right: 200px;
+
+}
